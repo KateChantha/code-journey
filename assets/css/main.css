@@ -1,6 +1,13 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
 
+/* 
+#d2f2e9 --mint
+#4acaa8 --darker
+#e1a58f --peach
+#f56a6a -- brush
+*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -94,7 +101,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #888;
-		font-family: "Lato", sans-serif;
+		font-family: "Roboto Slab","Lato", sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
 		line-height: 1.75em;
@@ -2508,7 +2515,8 @@ input, select, textarea {
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 		background: #4acaa8;
-		color: #d2f2e9;
+		/* COLOR ***************** */
+		color: #f56a6a;
 		height: 100%;
 		overflow-y: auto;
 		position: fixed;
@@ -2531,7 +2539,7 @@ input, select, textarea {
 		}
 
 		#header a {
-			color: #d2f2e9;
+			color: #747474;
 		}
 
 			#header a:hover {
@@ -2558,7 +2566,8 @@ input, select, textarea {
 			}
 
 			#header > header p {
-				color: #d2f2e9;
+				/* ************************** */
+				color: ##e1a58f;
 				font-style: italic;
 				margin: 1em 0 0 0;
 			}
@@ -3183,3 +3192,7 @@ input, select, textarea {
   padding-bottom: 15px;
 }
 
+.project-category {
+	color: #4acaa8;
+	margin-bottom: 3em;
+}
