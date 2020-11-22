@@ -3216,8 +3216,9 @@ input, select, textarea {
 }
 
 div.image.main {
-	background:#ACF9E5;
-	margin: auto 15%;
+	/* background:#ACF9E5; */
+	/* margin: auto 18%; */
+	margin: 0 20% 0 8%;
 }
 
 .plane-container div {
@@ -3251,15 +3252,6 @@ span.h-rotor {
 }
 
 span, li{ font-family: 'Lato', sans-serif; }
-
-.plane-container{
-	background:#ACF9E5;
-	/* margin: auto; */
-	/* width: 70%; */
-  /* width: 520px;
-  height: 240px; */
-  /* top: 0; bottom: 0; left: 0; right: 0; */
-}
 
 .plane-container .plane{
   position:absolute;
@@ -3395,12 +3387,18 @@ span, li{ font-family: 'Lato', sans-serif; }
 }
 
 .cat {
-  background:#BB8963;
+	/* background:#BB8963; */
+	/* background-image: url('../../images/kate_on_plane.png'); */
+	background-size: cover;
   height: 30%;
   top: 35%;
   width: 16%;
   left: 40%;
   z-index: 1;
+}
+
+#pilot img {
+	height: 300%;
 }
 
 .cat:before{
@@ -3427,7 +3425,7 @@ span, li{ font-family: 'Lato', sans-serif; }
     content: "";
 }
 
-.cat .eyes{
+/* .cat .eyes{
   position: absolute;
   height: 6px; width: 6px;
   background: #FFF;
@@ -3446,7 +3444,7 @@ span, li{ font-family: 'Lato', sans-serif; }
   top: 20px;
   margin: auto;
   left: 0; right: 0;
-}
+} */
 
 .plane .p-message{
   position:absolute;
