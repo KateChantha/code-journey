@@ -3346,3 +3346,27 @@ span, li{ font-family: 'Lato', sans-serif; }
 90% {height:90%; margin-top: 8px; background: #111;}
 100% {height:100%; margin-top: 0; background: #333;}
 }
+
+
+/* CLOUND */
+.cloud-wrapper {
+  z-index: 40;
+  position: absolute;
+  top: 220px;
+  left: 900px;
+  overflow: hidden;
+  animation: glide 60s linear infinite;
+}
+
+@keyframes glide {
+  0%{
+    transform: translate3d(0, 0, 200);
+  }
+  100%{
+    transform: translate3d(-1692px, 0, 0);
+  }
+}
+
+.cloud {
+  overflow: hidden;
+}
