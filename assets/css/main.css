@@ -3244,12 +3244,12 @@ div.image.main {
 }
 
 
-span.h-rotor {
-	/* display: block;
-	position: relative; */
+/* span.h-rotor {
+	display: block;
+	position: relative;
 	margin: 0; 
 	padding: 0;
-}
+} */
 
 span, li{ font-family: 'Lato', sans-serif; }
 
@@ -3272,78 +3272,78 @@ span, li{ font-family: 'Lato', sans-serif; }
   overflow: visible;
 }
 
-.plane .p-body .p-parts{
+/* .plane .p-body .p-parts{
   position:absolute;
   margin: auto;
   width: 100%;
   height: 60%;
   bottom: 0; right: 0;
-}
+} */
 
-.p-parts .part-one, .p-parts .part-two, .p-parts .part-three{
+/* .p-parts .part-one, .p-parts .part-two, .p-parts .part-three{
   float: left;
   width: 30%;
   background: #2E8F2D;
   height: 100%;
-}
+} */
 
-.p-parts .part-one {
+/* .p-parts .part-one {
   border-radius: 25% 0 0 85%;
   width: 35%;
-}
+} */
 
-.p-parts .part-one .po-up, .p-parts .part-one .po-middle , .p-parts .part-one .po-down,
+/* .p-parts .part-one .po-up, .p-parts .part-one .po-middle , .p-parts .part-one .po-down,
 .part-two .pt-wing {
   position: absolute;
   background: #247023;
   margin: auto;
   z-index: 0;
-}
+} */
 
-.p-parts .part-one .po-up {
+/* .p-parts .part-one .po-up {
   height: 30%;
   width: 55%;
   border-radius: 15% 95% 0 0;
   right: 20%;
   bottom: 100%;
-}
+} */
 
-.p-parts .part-one .po-middle {
+/* .p-parts .part-one .po-middle {
   height: 10%;
   width: 60%;
   border-radius: 25%;
   left: 0%;
   bottom: 50%;
-}
+} */
 
-.p-parts .part-one .po-down {
+/* .p-parts .part-one .po-down {
   height: 15%;
   width: 20%;
   border-radius: 0 0 50% 50%;
   right: 10%;
   top: 100%;
   background: #444;
-}
+} */
 
-.p-parts .part-two {
+/* .p-parts .part-two {
   height: 60%;
   top: 41%;
   width: 25%;
-}
+} */
 
-.p-parts .part-two .pt-wing {
+/* .p-parts .part-two .pt-wing {
   height: 25%;
   width: 100%;
   border-radius: 0 0 70% 25%;
   bottom: 30%;
-}
+} */
 
-.p-parts .part-three {
+/* .p-parts .part-three {
   border-radius: 0 45% 45% 0;
   overflow: visible;
-}
+} */
 
-.p-parts .part-three .roll {
+/* .p-parts .part-three .roll {
   display: block;
   position: absolute;
   height: 25px;
@@ -3352,17 +3352,17 @@ span, li{ font-family: 'Lato', sans-serif; }
   background: #444;
   z-index: 9;
   top: 102%;
-}
+} */
 
-.helix {
+/* .helix {
   position: absolute;
   margin: auto; 
   height: 100%;
   width: 8%;
   right: 3%;
-}
+} */
 
-.helix .h-base{
+/* .helix .h-base{
   display: block;
   position: absolute;
   border-radius: 0 50% 50% 0;
@@ -3372,9 +3372,9 @@ span, li{ font-family: 'Lato', sans-serif; }
   height: 25%;
   width: 100%;
   z-index: 2;
-}
+} */
 
-.helix .h-rotor{
+/* .helix .h-rotor{
   display: block;
   border-radius: 50%;
   background: #333;
@@ -3384,24 +3384,22 @@ span, li{ font-family: 'Lato', sans-serif; }
   z-index: 1;
   animation:h-fly 1s infinite;
   -webkit-animation:h-fly 1s infinite;
-}
+} */
 
-.cat {
-	/* background:#BB8963; */
-	/* background-image: url('../../images/kate_on_plane.png'); */
+/* .cat {
 	background-size: cover;
   height: 30%;
   top: 35%;
   width: 16%;
   left: 40%;
   z-index: 1;
-}
+} */
 
 #pilot img {
 	height: 300%;
 }
 
-.cat:before{
+/* .cat:before{
    width: 0;
     height: 0;
     border-left: 0px solid transparent;
@@ -3411,9 +3409,9 @@ span, li{ font-family: 'Lato', sans-serif; }
     left: 0;
     position: absolute;
     content: "";
-}
+} */
 
-.cat:after{
+/* .cat:after{
    width: 0;
     height: 0;
     border-right: 0px solid transparent;
@@ -3423,7 +3421,7 @@ span, li{ font-family: 'Lato', sans-serif; }
     right: 0;
     position: absolute;
     content: "";
-}
+} */
 
 /* .cat .eyes{
   position: absolute;
@@ -3474,7 +3472,8 @@ span, li{ font-family: 'Lato', sans-serif; }
 .plane .p-message ul li{
   float: right;
   height: 40px;
-  background: #FFF;
+	background: #FFF;
+	/* background: #247023; */
   width: 33%;
   text-align: center;
   line-height: 2.85em;
