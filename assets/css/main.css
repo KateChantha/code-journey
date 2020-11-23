@@ -3258,8 +3258,8 @@ span, li{ font-family: 'Lato', sans-serif; }
   position:absolute;
   margin: auto;
   width: 50%;
-  height: 100%;
-  left: 0;
+	height: 100%;
+  left: 11%;
 }
 
 .plane .p-message .rope{
@@ -3288,9 +3288,15 @@ span, li{ font-family: 'Lato', sans-serif; }
   text-align: center;
   line-height: 2.85em;
   font-weight: 600;
-  text-transform: uppercase;
-  font-size: 0.75em;
+	text-transform: uppercase;
+  font-size: 75%;
   color: #777;
+}
+
+@media screen and (max-width: 540px) {
+  .plane .p-message ul li {
+    font-size: 50%;
+  }
 }
 
 .plane .p-message ul li.middle{
@@ -3349,11 +3355,22 @@ span, li{ font-family: 'Lato', sans-serif; }
 
 
 /* CLOUND */
-.cloud-wrapper {
+.cloud-wrapper .clound-1{
   z-index: 40;
   position: absolute;
-  top: 220px;
-  left: 900px;
+	width: 20%;
+	top: 20%;
+  left: 95%;
+  overflow: hidden;
+  animation: glide 60s linear infinite;
+}
+
+.cloud-wrapper .clound-2{
+  z-index: 40;
+  position: absolute;
+	width: 30%;
+	top: 10%;
+  left: 35%;
   overflow: hidden;
   animation: glide 60s linear infinite;
 }
