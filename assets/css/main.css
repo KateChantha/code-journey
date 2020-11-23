@@ -3349,11 +3349,22 @@ span, li{ font-family: 'Lato', sans-serif; }
 
 
 /* CLOUND */
-.cloud-wrapper {
+.cloud-wrapper .clound-1{
   z-index: 40;
   position: absolute;
-  top: 220px;
-  left: 900px;
+	width: 20%;
+	top: 20%;
+  left: 95%;
+  overflow: hidden;
+  animation: glide 60s linear infinite;
+}
+
+.cloud-wrapper .clound-2{
+  z-index: 40;
+  position: absolute;
+	width: 30%;
+	top: 10%;
+  left: 35%;
   overflow: hidden;
   animation: glide 60s linear infinite;
 }
