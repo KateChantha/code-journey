@@ -3196,3 +3196,177 @@ input, select, textarea {
 	color: #4acaa8;
 	margin-bottom: 3em;
 }
+
+/* PLANE */
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+#one {
+	background:#ACF9E5;
+}
+
+div.image.main {
+	margin: 0 20% 0 8%;
+}
+
+.plane-container div {
+		display: block;
+		position: relative;
+		margin: 0; 
+		padding: 0;
+}
+
+.plane-container ul {
+	display: block;
+	position: relative;
+	margin: 0; 
+	padding: 0;
+}
+
+.plane-container li {
+	display: block;
+	position: relative;
+	margin: 0; 
+	padding: 0;
+}
+
+span, li{ font-family: 'Lato', sans-serif; }
+
+.plane-container .plane{
+  position:absolute;
+  margin: auto;
+  width: 100%;
+  height: 70%;
+  top: 0; bottom: 0; left: 0; right: 0;
+  animation:fly 1s infinite;
+  -webkit-animation:fly 1s infinite;
+}
+
+.plane .p-body{
+  position:absolute;
+  margin: auto;
+  width: 50%;
+  height: 100%;
+  right: 0;
+  overflow: visible;
+}
+
+#pilot img {
+	height: 300%;
+}
+
+.plane .p-message{
+  position:absolute;
+  margin: auto;
+  width: 50%;
+  height: 100%;
+  left: 0;
+}
+
+.plane .p-message .rope{
+  display: block;
+  position:absolute;
+  border: 1px solid #333;
+  left: 90%;
+  bottom: 50%;
+  width: 10%;
+}
+
+.plane .p-message ul{
+  position:absolute;
+  border-right: 8px solid #333;
+  width: 92%;
+  height: 25%;
+  bottom: 35%;
+}
+
+.plane .p-message ul li{
+  float: right;
+  height: 40px;
+	background: #FFF;
+	/* background: #247023; */
+  width: 33%;
+  text-align: center;
+  line-height: 2.85em;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  color: #777;
+}
+
+.plane .p-message ul li.middle{
+  top: 0px;
+  background: #FAFAFA;
+  animation:m-fly 1s infinite;
+  -webkit-animation:m-fly 1s infinite;
+}
+
+
+@keyframes fly{
+0 {top:0px;}
+25% {top:10px;}
+50% {top:0px;}
+75% {top:10px;}  
+100% {top: 0%;}
+}
+
+@-webkit-keyframes fly /*Safari and Chrome*/ {
+0 {top:0px;}
+25% {top:10px;}
+50% {top:0px;}
+75% {top:10px;}  
+100% {top: 0%;}
+}
+
+@keyframes m-fly {
+0 {top:0px;}
+25% {top:5px;}
+50% {top:0px;}
+75% {top:5px;}  
+100% {top: 0%;}
+}
+
+@-webkit-keyframes m-fly /*Safari and Chrome*/ {
+0 {top:0px;}
+25% {top:5px;}
+50% {top:0px;}
+75% {top:5px;}  
+100% {top: 0%;}
+}
+
+@-webkit-keyframes h-fly /*Safari and Chrome*/ {
+0 {height:100%; margin-top: 0; background: #333;}
+10% {height:90%; margin-top: 8px; background: #111;}
+20% {height:100%; margin-top: 0; background: #333;}
+30% {height:90%; margin-top: 8px; background: #111;}
+40% {height:100%; margin-top: 0; background: #333;}
+50% {height:90%; margin-top: 8px; background: #111;}
+60% {height:100%; margin-top: 0; background: #333;}
+70% {height:90%; margin-top: 8px; background: #111;}
+80% {height:100%; margin-top: 0; background: #333;}
+90% {height:90%; margin-top: 8px; background: #111;}
+100% {height:100%; margin-top: 0; background: #333;}
+}
+
+
+/* CLOUND */
+.cloud-wrapper {
+  z-index: 40;
+  position: absolute;
+  top: 220px;
+  left: 900px;
+  overflow: hidden;
+  animation: glide 60s linear infinite;
+}
+
+@keyframes glide {
+  0%{
+    transform: translate3d(0, 0, 200);
+  }
+  100%{
+    transform: translate3d(-1692px, 0, 0);
+  }
+}
+
+.cloud {
+  overflow: hidden;
+}

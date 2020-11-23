@@ -30,7 +30,6 @@
 		<nav id="nav">
 			<ul>
 				<li><a href="#one" class="active">About</a></li>
-				<!-- <li><a href="#two">My Toolbox</a></li> -->
 				<li><a href="#three">Full Stack Products</a></li>
 				<li><a href="#four">Javascript HTML5 Projects</a></li>
 
@@ -47,42 +46,46 @@
 
 			<!-- One -->
 			<section id="one">
+
+				<!-- BANNER -->
 				<div class="image main" data-position="center">
-					<img src="images/banner.jpg" alt="" />
+					<div class="plane-container">
+						<div class="plane">
+							<div class="p-body">
+								<img id="pilot" src="./images/hero_on_plane.png" alt="kate on plane">
+							</div>
+							
+							<div class="p-message">
+								<div class="rope"></div>
+								<ul>
+									<li>Journey!</li>
+									<li class="middle">Coding</li>
+									<li>Kate's</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+			
+				</div>
+				
+				<!-- Clound -->
+				<div class="cloud-wrapper">
+					<div class="clound"><img src="./images/cloud_fog.png" alt="clound" style="width:304px;height:228px;"></div>
 				</div>
 				<div class="container">
 					<header class="major">
 						<h2>Coding Journey</h2>
-						<p>It's all about journey. I am using this site to document my growth as a software developer.</p>
+						<p>It's all about journey. I am using this site to document my growth as a software engineer.</p>
 					</header>
 					<p>I have a special interest in problems of frontend architecture: how to design complex client-side
 						applications that are performant and maintainable while also scaling across many developers and teams. </p>
 				</div>
 			</section>
 
-			<!-- Two
-			<section id="two">
-				<div class="container">
-					<h3>My Toolbox</h3>
-					<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non.
-						Adipiscing cubilia elementum integer lorem ipsum dolor sit amet.</p>
-					<ul class="feature-icons">
-						<li class="icon solid fa-code">Write all the code</li>
-						<li class="icon solid fa-cubes">Stack small boxes</li>
-						<li class="icon solid fa-book">Read books and stuff</li>
-						<li class="icon solid fa-coffee">Drink much coffee</li>
-						<li class="icon solid fa-bolt">Lightning bolt</li>
-						<li class="icon solid fa-users">Shadow clone technique</li>
-					</ul>
-				</div>
-			</section> -->
-
 			<!-- Three -->
 			<section id="three">
 				<div class="container">
 					<h3 class="project-category">Full Stack Products</h3>
-					<!-- <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non.
-						Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p> -->
 					<div class="features">
 
 						<article>
@@ -95,13 +98,6 @@
 								<p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
 									— Full-stack, React, Typescript, Electron, Node.JS, Webpack
 								</p>
-								<!-- <a href="#" target="_blank">
-									<button
-										class="text-teal-800 bg-transparent border border-solid border-teal-800 hover:bg-teal-700 hover:text-white active:bg-teal-600 font-bold uppercase text-xs px-4 py-2 rounded outline-none focus:outline-none mr-2 mb-1 mt-3"
-										type="button" style="transition: all 0.15s ease">
-										View Live
-									</button>
-								</a> -->
 								<a href="https://github.com/oslabs-beta/DockerLocal"
 									class="text-teal-800 font-bold uppercase text-xs hover:text-teal-600 source-link" target="_blank">
 									Source Code
@@ -118,14 +114,6 @@
 								<p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
 									— Full-stack, React, Redux, Spotify API, Node.JS, WebSocket
 								</p>
-								<!-- <a href="#" target="_blank">
-									<button
-										class="text-teal-800 bg-transparent border border-solid border-teal-800 hover:bg-teal-700 hover:text-white active:bg-teal-600 font-bold uppercase text-xs px-4 py-2 rounded outline-none focus:outline-none mr-2 mb-1 mt-3"
-										type="button" style="transition: all 0.15s ease">
-										View Live
-									</button>
-								</a> -->
-
 								<a href="https://github.com/pandaudio/Pandaudio"
 									class="text-teal-800 font-bold uppercase text-xs hover:text-teal-600 source-link " target="_blank">
 									Source Code
@@ -138,8 +126,6 @@
 			<section id="four">
 				<div class="container">
 					<h3 class="project-category">JavaScript HTML5 Projects</h3>
-					<!-- <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non.
-						Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p> -->
 					<div class="features">
 
 						<article>
