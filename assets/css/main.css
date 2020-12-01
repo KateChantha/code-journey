@@ -3197,6 +3197,10 @@ input, select, textarea {
 	margin-bottom: 3em;
 }
 
+.info-link {
+	border-bottom: 1px #4acaa8 dashed;
+}
+
 /* PLANE */
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
