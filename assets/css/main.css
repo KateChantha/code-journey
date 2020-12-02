@@ -3493,35 +3493,26 @@ img.demo-gif{
 /*LABEL BUTTON*/
 .label-btn {
   cursor: pointer;
-  background: #27ae60;
   display: inline-block;
-  padding: .5em 1em;
-  color: #fff;
-  border-radius: 3px;
+  padding: .65em 1.25em;
+	color: #285e61;
+	border: solid 1px #285e61;
+	border-radius: 3px;
+	margin-right: 4px;
+	font-size: 0.75rem;
+	font-weight: 800;
 }
 
 .label-btn:hover,
 .label-btn:focus {
-  background: #2ecc71;
+	background: #285e61;
+	color: #fff;
 }
 
 .label-btn:active {
   background: #27ae60;
   box-shadow: 0 1px 2px rgba(0,0,0, .2) inset;
 }
-
-/* .btn--blue {
-  background: #2980b9;
-}
-
-.btn--blue:hover,
-.btn--blue:focus {
-  background: #3498db;
-}
-
-.btn--blue:active {
-  background: #2980b9;
-} */
 
 p img {
   max-width: 200px;
