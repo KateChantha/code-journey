@@ -3441,7 +3441,11 @@ span, li{ font-family: 'Lato', sans-serif; }
   background: #fff;
   border-radius: 5px;
   padding: 1em 2em;
-  height: 50%;
+  height: 85%;
+}
+
+.demo-gif {
+	margin-top: 2.2rem;
 }
 
 .modal__close {
