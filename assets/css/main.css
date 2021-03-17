@@ -3197,6 +3197,14 @@ input, select, textarea {
 	margin-bottom: 3em;
 }
 
+.project-category.title {
+	margin-bottom: 0;
+}
+
+.project-category-description strong {
+	color: #349178;
+}
+
 .info-link {
 	border-bottom: 1px #4acaa8 dashed;
 }
