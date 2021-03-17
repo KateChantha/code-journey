@@ -3202,7 +3202,7 @@ input, select, textarea {
 }
 
 .project-category-description strong {
-	color: #349178;
+	color: orange;
 }
 
 .info-link {
